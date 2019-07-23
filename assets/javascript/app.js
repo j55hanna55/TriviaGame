@@ -1,6 +1,6 @@
 var card = $("#quiz-questions");
 
-// Question set
+
 var questions = [
   {
     question: "In what year was the specification for the COBOL language created?",
@@ -44,13 +44,17 @@ var questions = [
   }
 ];
 
-// Variable that will hold the setInterval
+$(document).on("click", "#start", function() {
+  game.start();
+});
+
+
 var timer;
 
 var game = {
   correct: 0,
   incorrect: 0,
-  counter: 120,
+  counter: 150,
 
   countdown: function() {
     game.counter--;
@@ -103,12 +107,6 @@ var game = {
     card.append("<h3>Incorrect Answers: " + this.incorrect + "</h3>");
   }
 };
-
-// CLICK EVENTS
-
-$(document).on("click", "#start", function() {
-  game.start();
-});
 
 $(document).on("click", "#done", function() {
   game.done();
