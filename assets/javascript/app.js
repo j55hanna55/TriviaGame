@@ -28,10 +28,20 @@ var questions = [
     correctAnswer: "ExtJS"
   },
   {
+    question: "Which famous computer scientist killed himself by eating a posion apple?",
+    answers: ["Donald Knuth", "Robert Prim", "Alan Turing", "Edsger Dijkstra"],
+    correctAnswer: "Alan Turing"
+  },
+  {
     question: "Who is the creator of the JavaScript scripting language?",
     answers: ["John Ousterhout", "Larry Wall", "John Ousterhout", "Sergey Brin"],
     correctAnswer: "John Ousterhout"
   }, 
+  {
+    question: "What programming language did Bjarne Stroustrup create?",
+    answers: ["SQL", "Python", "C", "C++"],
+    correctAnswer: "Python"
+  },
   {
     question: "What was the first song ever sung by a computer?",
     answers: ["Daisy Bell", "Happy Birthday", "Mary Had a Little Lamb", "Twinkle Twinkle Little Star"],
