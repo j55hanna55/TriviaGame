@@ -5,15 +5,15 @@ body {
 
 body {
   text-align: center;
-  background-image: url("../images/tacky.jpg");
+  background-image: url("../images/trees.jpg");
 }
 
 #wrapper {
-  width: 960px;
+  width: 1160px;
   min-height: 80%;
   box-sizing: border-box;
-  padding: 5% 0;
-  margin: 5% auto;
+  padding: 7% 0;
+  margin: 7% auto;
   background-color: #c3872e;
 }
 
@@ -43,9 +43,9 @@ button {
 }
 
 h1 {
-  margin-bottom: 50px;
-  font-family: Geo, sans-serif;
-  font-size: 6.5em;
+  margin-bottom: 75px;
+  font-family: 'Butcherman', cursive;
+  font-size: 6.7em;
   font-weight: bold;
   color: blue;
 }

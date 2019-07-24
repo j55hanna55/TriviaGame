@@ -60,6 +60,7 @@ $(document).on("click", "#start", function() {
 
 
 var timer;
+// var result = str.link("https://www.w3schools.com");
 
 var game = {
   correct: 0,
@@ -113,11 +114,28 @@ var game = {
     $("#sub-wrapper h2").remove();
 
     card.html("<h2>All Done!</h2>");
+    
     card.append("<h3>Correct Answers: " + this.correct + "</h3>");
     card.append("<h3>Incorrect Answers: " + this.incorrect + "</h3>");
+
+    card.append("<button id='tryAgain'>Try again</button>");
+  
+  },
+
+  tryAgain: function(){
+    var l = str.link("index.html");
+
+this.result(l);
   }
+
 };
+
 
 $(document).on("click", "#done", function() {
   game.done();
 });
+
+
+
+
+
